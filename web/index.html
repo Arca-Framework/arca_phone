@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- banners shown while the phone is put away -->
+    <div id="banners"></div>
+
+    <div id="phone" class="hidden">
+        <div class="frame">
+            <div class="notch"><span class="cam"></span></div>
+            <div class="screen" id="screen">
+                <div class="status">
+                    <span id="sb-time">12:00</span>
+                    <span class="sb-icons"><i class="fa-solid fa-signal"></i><i class="fa-solid fa-wifi"></i><i class="fa-solid fa-battery-three-quarters"></i></span>
+                </div>
+                <div id="view" class="view"></div>
+                <div class="home-bar" id="home-bar"></div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
